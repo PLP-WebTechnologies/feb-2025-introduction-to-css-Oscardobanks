@@ -1,0 +1,79 @@
+/* Reset some default styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styling with font family and background color */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+/* ID selector for main header */
+#main-header {
+  color: #2c3e50;
+  font-family: 'Georgia', serif;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #3498db;
+}
+
+/* Class selector for content sections */
+.content-section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Class selector for highlighted text */
+.highlight {
+  color: #e74c3c;
+  font-weight: bold;
+  font-family: 'Courier New', monospace;
+}
+
+/* Image styling with class selector */
+.featured-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border: 5px solid #3498db;
+  border-radius: 10px;
+}
+
+/* Footer styling with ID selector */
+#page-footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 15px;
+  background-color: #2c3e50;
+  color: white;
+  font-family: 'Verdana', sans-serif;
+}
+
+/* Button styling with class selector */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Arial', sans-serif;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
